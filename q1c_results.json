@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "B": 1,
+      "val_acc": 0.3875,
+      "oob_acc": 0.32222222222222224,
+      "oob_coverage": 0.375,
+      "disagreement": NaN,
+      "vote_margin": 1.0
+    },
+    {
+      "B": 5,
+      "val_acc": 0.6625,
+      "oob_acc": 0.3059360730593607,
+      "oob_coverage": 0.9125,
+      "disagreement": 0.7862500000000001,
+      "vote_margin": 0.24500000000000002
+    },
+    {
+      "B": 10,
+      "val_acc": 0.8,
+      "oob_acc": 0.4309623430962343,
+      "oob_coverage": 0.9958333333333333,
+      "disagreement": 0.770277777777778,
+      "vote_margin": 0.27375000000000005
+    },
+    {
+      "B": 25,
+      "val_acc": 0.8375,
+      "oob_acc": 0.6,
+      "oob_coverage": 1.0,
+      "disagreement": 0.766,
+      "vote_margin": 0.3035
+    },
+    {
+      "B": 50,
+      "val_acc": 0.85,
+      "oob_acc": 0.7,
+      "oob_coverage": 1.0,
+      "disagreement": 0.7698571428571428,
+      "vote_margin": 0.30650000000000005
+    },
+    {
+      "B": 100,
+      "val_acc": 0.9,
+      "oob_acc": 0.75,
+      "oob_coverage": 1.0,
+      "disagreement": 0.7728282828282828,
+      "vote_margin": 0.307625
+    },
+    {
+      "B": 200,
+      "val_acc": 0.8875,
+      "oob_acc": 0.7833333333333333,
+      "oob_coverage": 1.0,
+      "disagreement": 0.771071608040201,
+      "vote_margin": 0.3134375
+    }
+  ],
+  "selected_B": 100
+}

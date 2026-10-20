@@ -1,0 +1,167 @@
+[
+  {
+    "max_depth": 2,
+    "min_samples_leaf": 1,
+    "train_acc": 0.075,
+    "val_acc": 0.075,
+    "test_acc": 0.075,
+    "n_leaves": 3,
+    "mean_samples_per_leaf": 80.0,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 2
+  },
+  {
+    "max_depth": 2,
+    "min_samples_leaf": 2,
+    "train_acc": 0.075,
+    "val_acc": 0.075,
+    "test_acc": 0.075,
+    "n_leaves": 3,
+    "mean_samples_per_leaf": 80.0,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 2
+  },
+  {
+    "max_depth": 2,
+    "min_samples_leaf": 4,
+    "train_acc": 0.075,
+    "val_acc": 0.075,
+    "test_acc": 0.075,
+    "n_leaves": 3,
+    "mean_samples_per_leaf": 80.0,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 2
+  },
+  {
+    "max_depth": 4,
+    "min_samples_leaf": 1,
+    "train_acc": 0.125,
+    "val_acc": 0.1125,
+    "test_acc": 0.125,
+    "n_leaves": 5,
+    "mean_samples_per_leaf": 48.0,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 4
+  },
+  {
+    "max_depth": 4,
+    "min_samples_leaf": 2,
+    "train_acc": 0.125,
+    "val_acc": 0.1125,
+    "test_acc": 0.125,
+    "n_leaves": 5,
+    "mean_samples_per_leaf": 48.0,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 4
+  },
+  {
+    "max_depth": 4,
+    "min_samples_leaf": 4,
+    "train_acc": 0.125,
+    "val_acc": 0.1125,
+    "test_acc": 0.125,
+    "n_leaves": 5,
+    "mean_samples_per_leaf": 48.0,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 4
+  },
+  {
+    "max_depth": 8,
+    "min_samples_leaf": 1,
+    "train_acc": 0.225,
+    "val_acc": 0.2125,
+    "test_acc": 0.2125,
+    "n_leaves": 9,
+    "mean_samples_per_leaf": 26.666666666666668,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 8
+  },
+  {
+    "max_depth": 8,
+    "min_samples_leaf": 2,
+    "train_acc": 0.225,
+    "val_acc": 0.2125,
+    "test_acc": 0.2125,
+    "n_leaves": 9,
+    "mean_samples_per_leaf": 26.666666666666668,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 8
+  },
+  {
+    "max_depth": 8,
+    "min_samples_leaf": 4,
+    "train_acc": 0.225,
+    "val_acc": 0.2125,
+    "test_acc": 0.2125,
+    "n_leaves": 9,
+    "mean_samples_per_leaf": 26.666666666666668,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 8
+  },
+  {
+    "max_depth": 16,
+    "min_samples_leaf": 1,
+    "train_acc": 0.425,
+    "val_acc": 0.3625,
+    "test_acc": 0.3,
+    "n_leaves": 17,
+    "mean_samples_per_leaf": 14.117647058823529,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 16
+  },
+  {
+    "max_depth": 16,
+    "min_samples_leaf": 2,
+    "train_acc": 0.425,
+    "val_acc": 0.3625,
+    "test_acc": 0.3,
+    "n_leaves": 17,
+    "mean_samples_per_leaf": 14.117647058823529,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 16
+  },
+  {
+    "max_depth": 16,
+    "min_samples_leaf": 4,
+    "train_acc": 0.425,
+    "val_acc": 0.3625,
+    "test_acc": 0.3,
+    "n_leaves": 17,
+    "mean_samples_per_leaf": 14.117647058823529,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 16
+  },
+  {
+    "max_depth": null,
+    "min_samples_leaf": 1,
+    "train_acc": 1.0,
+    "val_acc": 0.625,
+    "test_acc": 0.6,
+    "n_leaves": 41,
+    "mean_samples_per_leaf": 5.853658536585366,
+    "frac_singleton_leaves": 0.024390243902439025,
+    "actual_depth": 37
+  },
+  {
+    "max_depth": null,
+    "min_samples_leaf": 2,
+    "train_acc": 0.9958333333333333,
+    "val_acc": 0.6125,
+    "test_acc": 0.6,
+    "n_leaves": 41,
+    "mean_samples_per_leaf": 5.853658536585366,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 37
+  },
+  {
+    "max_depth": null,
+    "min_samples_leaf": 4,
+    "train_acc": 0.9958333333333333,
+    "val_acc": 0.5875,
+    "test_acc": 0.6125,
+    "n_leaves": 40,
+    "mean_samples_per_leaf": 6.0,
+    "frac_singleton_leaves": 0.0,
+    "actual_depth": 38
+  }
+]

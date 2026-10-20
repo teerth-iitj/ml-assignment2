@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+q3a_cache/
+q3b_cache/
+*.tmp.npz

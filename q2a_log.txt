@@ -1,0 +1,10 @@
+K = 3  n = 9
+true labels      : [0 0 0 1 1 1 2 2 0]
+initial weights  : [0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111 0.1111]
+weak learner pred: [0 0 0 1 1 1 1 1 1]
+misclassified    : [0 0 0 0 0 0 1 1 1]
+weighted error   : 0.3333   (random-guess threshold 1-1/K = 0.6667)
+alpha            : log((1-err)/err) + log(K-1) = 1.3863
+updated weights  : [0.0556 0.0556 0.0556 0.0556 0.0556 0.0556 0.2222 0.2222 0.2222]  sum = 1.0
+status           : ok
+hand-check matches: True

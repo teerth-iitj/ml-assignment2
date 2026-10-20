@@ -1,0 +1,73 @@
+{
+  "rows": [
+    {
+      "model": "boosting (depth 4)",
+      "learners": 25,
+      "train": 0.6,
+      "val": 0.25,
+      "test": 0.2625,
+      "time_s": 11.851521492004395
+    },
+    {
+      "model": "bagging (frozen tree)",
+      "learners": 25,
+      "train": 1.0,
+      "val": 0.8375,
+      "test": 0.8,
+      "time_s": 38.13105916976929
+    },
+    {
+      "model": "boosting (depth 4)",
+      "learners": 50,
+      "train": 0.6625,
+      "val": 0.3125,
+      "test": 0.2875,
+      "time_s": 21.743159294128418
+    },
+    {
+      "model": "bagging (frozen tree)",
+      "learners": 50,
+      "train": 1.0,
+      "val": 0.85,
+      "test": 0.85,
+      "time_s": 75.317697763443
+    },
+    {
+      "model": "boosting (depth 4)",
+      "learners": 100,
+      "train": 0.9916666666666667,
+      "val": 0.425,
+      "test": 0.4375,
+      "time_s": 44.36873817443848
+    },
+    {
+      "model": "bagging (frozen tree)",
+      "learners": 100,
+      "train": 1.0,
+      "val": 0.9,
+      "test": 0.8375,
+      "time_s": 282.76623582839966
+    }
+  ],
+  "face": {
+    "train_idx": 63,
+    "true": 10,
+    "peak_weight": 0.09012196691072792,
+    "peak_round": 96,
+    "n_missed": 87,
+    "wrong_labels": [
+      [
+        2,
+        12
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        12,
+        9
+      ]
+    ]
+  }
+}

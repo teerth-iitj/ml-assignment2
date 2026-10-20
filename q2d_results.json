@@ -1,0 +1,30 @@
+{
+  "table": [
+    {
+      "model": "tree",
+      "clean_acc": 0.6,
+      "clean_conf": 1.0,
+      "masked_acc": 0.5375,
+      "masked_conf": 1.0
+    },
+    {
+      "model": "bagging",
+      "clean_acc": 0.8375,
+      "clean_conf": 0.394375,
+      "masked_acc": 0.8,
+      "masked_conf": 0.28300000000000003
+    },
+    {
+      "model": "boosting",
+      "clean_acc": 0.4375,
+      "clean_conf": 0.12465162789366886,
+      "masked_acc": 0.3875,
+      "masked_conf": 0.12310445130601977
+    }
+  ],
+  "face": {
+    "test_idx": 18,
+    "true": 9,
+    "kind": "bagging robust, boosting breaks"
+  }
+}

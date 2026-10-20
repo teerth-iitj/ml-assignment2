@@ -1,0 +1,136 @@
+{
+  "rows": [
+    {
+      "depth": 1,
+      "rounds": 10,
+      "learners_used": 10,
+      "train": 0.05,
+      "val": 0.05,
+      "test": 0.05
+    },
+    {
+      "depth": 1,
+      "rounds": 25,
+      "learners_used": 25,
+      "train": 0.09166666666666666,
+      "val": 0.075,
+      "test": 0.075
+    },
+    {
+      "depth": 1,
+      "rounds": 50,
+      "learners_used": 50,
+      "train": 0.175,
+      "val": 0.1375,
+      "test": 0.0875
+    },
+    {
+      "depth": 1,
+      "rounds": 100,
+      "learners_used": 100,
+      "train": 0.1625,
+      "val": 0.1,
+      "test": 0.075
+    },
+    {
+      "depth": 2,
+      "rounds": 10,
+      "learners_used": 10,
+      "train": 0.1125,
+      "val": 0.0875,
+      "test": 0.075
+    },
+    {
+      "depth": 2,
+      "rounds": 25,
+      "learners_used": 25,
+      "train": 0.12916666666666668,
+      "val": 0.0625,
+      "test": 0.0625
+    },
+    {
+      "depth": 2,
+      "rounds": 50,
+      "learners_used": 50,
+      "train": 0.3,
+      "val": 0.175,
+      "test": 0.1375
+    },
+    {
+      "depth": 2,
+      "rounds": 100,
+      "learners_used": 100,
+      "train": 0.4875,
+      "val": 0.2,
+      "test": 0.2
+    },
+    {
+      "depth": 3,
+      "rounds": 10,
+      "learners_used": 10,
+      "train": 0.32083333333333336,
+      "val": 0.2,
+      "test": 0.2125
+    },
+    {
+      "depth": 3,
+      "rounds": 25,
+      "learners_used": 25,
+      "train": 0.3958333333333333,
+      "val": 0.2375,
+      "test": 0.1875
+    },
+    {
+      "depth": 3,
+      "rounds": 50,
+      "learners_used": 50,
+      "train": 0.625,
+      "val": 0.3125,
+      "test": 0.3375
+    },
+    {
+      "depth": 3,
+      "rounds": 100,
+      "learners_used": 100,
+      "train": 0.9125,
+      "val": 0.3375,
+      "test": 0.375
+    },
+    {
+      "depth": 4,
+      "rounds": 10,
+      "learners_used": 10,
+      "train": 0.225,
+      "val": 0.15,
+      "test": 0.1125
+    },
+    {
+      "depth": 4,
+      "rounds": 25,
+      "learners_used": 25,
+      "train": 0.6,
+      "val": 0.25,
+      "test": 0.2625
+    },
+    {
+      "depth": 4,
+      "rounds": 50,
+      "learners_used": 50,
+      "train": 0.6625,
+      "val": 0.3125,
+      "test": 0.2875
+    },
+    {
+      "depth": 4,
+      "rounds": 100,
+      "learners_used": 100,
+      "train": 0.9916666666666667,
+      "val": 0.425,
+      "test": 0.4375
+    }
+  ],
+  "selected": {
+    "depth": 4,
+    "rounds": 100
+  }
+}
