@@ -28,7 +28,7 @@ tree_params = {"max_depth": tp["max_depth"], "min_samples_leaf": tp["min_samples
 with (Q2_DIR / "boost_final.json").open() as f:
     depth = json.load(f)["depth"]
 
-# ---------- comparison table (each model fitted separately so timing is honest) ----------
+# ---------- comparison table ----------
 rows, boost = [], {}
 for T in [25, 50, 100]:
     t0 = time.time()
@@ -47,10 +47,10 @@ for r in rows:
     print(f"{r['model']:>24} {r['learners']:>4} {r['train']:>7.3f} {r['val']:>7.3f} "
           f"{r['test']:>7.3f} {r['time_s']:>8.1f}")
 
-# ---------- inspect a heavily weighted training face (100-round model) ----------
+# ---------- inspect a heavily weighted training face ----------
 m = boost[100]
-W = np.stack(m.w_hist)                    # (rounds, 240): weights each round was trained on
-H = np.stack(m.pred_hist)                 # (rounds, 240): each learner's prediction on train faces
+W = np.stack(m.w_hist)                    
+H = np.stack(m.pred_hist)                
 miss = H != ytr[None, :]
 peak = W.max(0)
 i = int(peak.argmax())
