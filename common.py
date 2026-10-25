@@ -2,11 +2,11 @@ import re
 import numpy as np
 from sklearn.datasets import fetch_olivetti_faces
 
-ROLL_NUMBER = "M26CSE010"   # <-- put your roll number here
+ROLL_NUMBER = "M26CSE010"   
 
 
 def get_seed(roll=ROLL_NUMBER):
-    digits = re.sub(r"\D", "", roll)      # keep numeric characters only, in order
+    digits = re.sub(r"\D", "", roll)      
     return int(digits)
 
 
