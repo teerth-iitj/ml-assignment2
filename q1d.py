@@ -59,8 +59,6 @@ both_wrong = np.where((tpred != yte) & (bpred != yte))[0]
 print(f"\nBagging corrects tree: {len(fixed)} faces | both wrong: {len(both_wrong)} faces")
 
 # Selection rules (fixed in advance):
-#  - corrected: the two with the most votes for the true class
-#  - both wrong: the two with the highest winning vote fraction (most consistent error)
 fixed_sel = fixed[np.argsort(-V[fixed, yte[fixed]])][:2]
 wrong_sel = both_wrong[np.argsort(-bconf[both_wrong])][:2]
 
@@ -81,7 +79,7 @@ cases = [describe("corrected", i) for i in fixed_sel] + [describe("both wrong", 
 with open("q1d_results.json", "w") as f:
     json.dump({"B": B, "results": results, "cases": cases}, f, indent=2)
 
-# ---- figure: test face, true identity, tree's prediction, bagging's prediction ----
+
 fig, ax = plt.subplots(len(cases), 4, figsize=(8, 2.1 * len(cases)))
 for r, c in enumerate(cases):
     i = c["test_idx"]
