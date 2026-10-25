@@ -16,7 +16,7 @@ def leaf_stats(tree, Xtr):
     t = tree.tree_
     is_leaf = t.children_left == -1
     n_leaves = int(is_leaf.sum())
-    # training samples per leaf (counts of actual training rows reaching each leaf)
+    # training samples per leaf
     leaf_ids = tree.apply(Xtr)
     counts = np.array([(leaf_ids == l).sum() for l in np.where(is_leaf)[0]])
     return {
@@ -50,7 +50,7 @@ for r in rows:
           f"{r['frac_singleton_leaves']:>7.3f} {r['actual_depth']:>7}")
 
 # Selection rule: validation accuracy ONLY.
-# Ties are broken by the first row in grid order (documented here for reproducibility).
+# Ties are broken by the first row in grid order
 best = max(rows, key=lambda r: r["val_acc"])
 print("\nFROZEN SETTING:", {"max_depth": best["max_depth"],
                             "min_samples_leaf": best["min_samples_leaf"]})
